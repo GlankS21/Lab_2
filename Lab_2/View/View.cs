@@ -19,7 +19,7 @@ public class View {
                     break;
                 case EMusicFunction.search:
                     Console.WriteLine("Input the part of the name to find composition in the catalog:");
-                    _musicCatalog.seachMusic(Console.ReadLine());
+                    _musicCatalog.seachMusic(Console.ReadLine()); 
                     break;
                 case EMusicFunction.add:
                     Music music = new Music();

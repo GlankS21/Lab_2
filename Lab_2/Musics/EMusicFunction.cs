@@ -1,6 +1,6 @@
 ﻿namespace Lab_2;
 
-public enum EMusicFunction {
+public enum EMusicFunction { 
     list,
     search,
     add,

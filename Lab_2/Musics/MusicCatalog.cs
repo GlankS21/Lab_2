@@ -10,7 +10,7 @@ public class MusicCatalog: IMusicCatalog {
         foreach (var _music in _musics) {
             Console.WriteLine(_music.getMusic());   
         }
-        return _musics;
+        return _musics; 
     }
 
     public bool seachMusic(string name) {

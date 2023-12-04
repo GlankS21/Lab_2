@@ -1,6 +1,6 @@
 ﻿namespace Lab_2;
 
-public class Music {
+public class Music { 
     public string authorName { get; set; }
     public string compositionName { get; set; }
 
