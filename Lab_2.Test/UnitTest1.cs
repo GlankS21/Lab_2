@@ -2,7 +2,7 @@ using Xunit;
 
 namespace Lab_2.Test;
 
-public class CalculateTests
+public class CalculateTests 
 {
     [Fact]
     public void FunctionList_ShouldBeZeroElement() {

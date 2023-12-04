@@ -21,7 +21,7 @@ public class View {
                     Console.WriteLine("Input the part of the name to find composition in the catalog:");
                     _musicCatalog.seachMusic(Console.ReadLine());
                     break;
-                case EMusicFunction.add:
+                case EMusicFunction.add: 
                     Music music = new Music();
                     _musicCatalog.addMusic(music);
                     break;

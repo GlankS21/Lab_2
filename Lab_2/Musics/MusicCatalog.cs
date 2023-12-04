@@ -11,7 +11,7 @@ public class MusicCatalog: IMusicCatalog {
             Console.WriteLine(_music.getMusic());   
         }
         return _musics;
-    }
+    } 
 
     public bool seachMusic(string name) {
         List<Music> resultMusic = new List<Music>();
